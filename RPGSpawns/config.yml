@@ -1,0 +1,70 @@
+RezTerms:
+  Perms: you do not have permission to use this command!
+  Wrong World: You cannot ressurect a player that isn't on your world!
+  Rez Proper: Improper usage, please use /rez playername!
+  Player Not Found: Could not find player!
+  
+  #this term can use &p for the player name being rez'd
+  Rez Attempt: you are trying to bring &p back to life!
+  
+  Already Rezz: This player is already being ressurected!
+  
+  #this term can use &p for the player name being rez'd
+  Bad Distance: You are too far away to ressurect &p
+  
+  Not Dead: You are trying to ressurect a player that isn't dead!
+  Rez Disabled: Resurrections are disabled on this server
+  
+  #this term can use &p for the player that did the ressurection
+  Ressurected By: You have been ressurected by &p
+  
+  #this term can use &p for the player name being rez'd
+  Just Ressurected: You have ressurected &p
+  
+SpawnTerms:
+  #All terms can use @# for colors.
+  Bad Command: incorrect command format! you must use /spawns (add,del,tp,list)
+  No Perms: You do not have permission to use this command
+  No Spawns: There are no spawns on this world yet! please use (/spawns add {spawnname}) to add a spawn here!
+  
+  #this term can use &s for spawn name and &w for world name.
+  Spawn Not Found: Spawn &s doesn't exist on &w.
+  
+  Bad Deletion: Improper deletion use /spawns del name
+  
+  #this term can use &s for spawn name and &w for world name.
+  Spawn Removed: spawn point &s on world &w has been removed.
+  Spawn Needs Name: You must enter a name for this spawn.
+  
+  #this term can use &s for spawn name and &w for world name.
+  Spawn Create: you have successfully created a new spawn point named @4&s @F on @6&w @F.
+  
+  Spawn Exists: A spawn point with that name already exists!
+  Only Op: You must be an op to use this command!
+  Config Loaded: The config file has been reloaded!
+
+
+#should ressurecting be allowed on your server?
+AllowRez: true
+
+#maximum distance away players can be rez'd from
+Max Distance: 30
+
+#proper layout of spawns, though it is recommended that this be only edited in game!
+#world name
+  #spawn 1's name
+    #X: 0
+    #Y: 0
+    #Z: 0
+    #Pitch: 0
+    #Yaw: 0
+    #Perms: spawn1.use
+  #spawn 2's name
+    #X: 0
+    #Y: 0
+    #Z: 0
+    #Pitch: 0
+    #Yaw: 0
+
+
+

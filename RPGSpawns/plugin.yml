@@ -1,0 +1,10 @@
+name: RpgSpawns
+main: com.vartala.soulofw0lf.rpgspawns.RpgSpawns
+version: 1.5.1
+commands:
+    spawns:
+        description: Base spawn command
+        usage: /<spawns> [add,list,del,tp]
+    rez:
+        description: the command to use when ressurecting people
+        usage: /<res> [playername]
